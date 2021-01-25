@@ -3399,7 +3399,7 @@ p.form-message.error{
     bottom: 5px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #8f6ed5;
+    border-top-color: #0A69C3;
     -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
 }
@@ -3412,7 +3412,7 @@ p.form-message.error{
     bottom: 15px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #d782d9;
+    border-top-color: #FEBE00;
     -webkit-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite;
 }
