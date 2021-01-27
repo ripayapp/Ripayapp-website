@@ -2870,7 +2870,7 @@ SECTION MARGIN
     top: 50%;
     right: 25px;
     transform: translateY(-50%);
-    background: linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
+    background: #0A69C3;
     -webkit-background-clip: text;
     color: transparent
 }
