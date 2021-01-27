@@ -948,8 +948,8 @@ SECTION MARGIN
 ============================================================*/
 
 .navbar {
-    border-bottom: 1px solid#053661;
-    background-color:#053661;
+    border-bottom: 1px solid#E6E6E6;
+    background-color:#b4c2e8;
 }
 
 .navbar .nav.navbar-nav {
@@ -1003,7 +1003,7 @@ SECTION MARGIN
 /* Mobile menu toggle button */
 .navbar .navbar-toggle.collapsed {
     border: 1px solid#053661;
-    background: transparent;
+    background: #053661;
 }
 
 .navbar .navbar-toggle.collapsed .icon-bar {
@@ -1070,6 +1070,11 @@ SECTION MARGIN
 
 
 /*hero new style*/
+#hero {
+    background-image: url(../img/25928.jpg);
+    background: cover;
+}
+
 .hero-content-wrap{
     display: table;
     height: 550px;
@@ -2607,7 +2612,7 @@ SECTION MARGIN
 .pricing-single .pricing-single-content .main-price-info:before {
     font-size: 22px;
     font-weight: 300;
-    content: "/";
+    /*content: "/";*/
     margin-right: 3px;
 }
 .pricing-single:hover{
