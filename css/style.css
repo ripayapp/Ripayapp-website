@@ -1986,7 +1986,7 @@ SECTION MARGIN
 .single-promo-content span{
     font-size: 35px;
     margin-bottom: 10px;
-    background: linear-gradient(to bottom,#053661 15%, #8f6ed5 70%, #d782d9 94%);
+    background: #053661;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -2000,7 +2000,7 @@ SECTION MARGIN
 .single-promo-section .line{
     width: 100%;
     height: 2px;
-    background: #6541c1;
+    background: #053661;
     background: #053661 
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6541c1', endColorstr='#d43396', GradientType=1);
     -webkit-transform: scale(0);
