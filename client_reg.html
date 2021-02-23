@@ -83,8 +83,8 @@
                                 <li><a class="page-scroll" href="faq.html">Faq</a></li>
                                 <li><a class="page-scroll" href="index.html#contact">Partner With Us</a></li>
                                 <li><a class="page-scroll" href="about.html">About</a></li>
-                                <li><a class="page-scroll" href="client_reg.html">Client Registration</a></li>
-                                <li class="active"><a class="page-scroll" href="apply_loan.html">Apply For Loan</a></li>
+                                <li class="active"><a class="page-scroll" href="client_reg.html">Client Registration</a></li>
+                                <li><a class="page-scroll" href="apply_loan.html">Apply For Loan</a></li>
                                 <li><a class="page-scroll" href="#">Repay Loan</a></li>
                             </ul>
                         </div>
@@ -101,8 +101,8 @@
                 <div class="container ">
                     <div class="col-sm-10 pt-70 pl-140">
                         <form action="https://cssmaterial.com/apetech/demo/php/mail.php" method="POST" id="contactForm1" class="contact-us-form" novalidate="novalidate">
-                            <h6 class="pb-30">Apply For Loan</h6>
-                            <p class="pb-20">Please Read Our Terms & Conditions <a style="text-decoration: underline;" href="t&c.html">Here</a> before applying</p>
+                            <h6 class="pb-30">Register as our client</h6>
+                            
                             <div class="row">
                                 <div class="col-sm-12 col-xs-12">
                                     <div class="form-group">
@@ -130,67 +130,82 @@
                             <div class="row">
                                 <div class="col-sm-12 col-xs-12">
                                     <div class="form-group">
-                                        <input type="text" name="phone" value="" class="form-control"
-                                               id="phone" placeholder="Your Phone">
+                                        <label for="DOB">Date of Birth</label>
+                                        <input type="date" name="DOB" value="" class="form-control"
+                                               id="DOB" placeholder="Date of Birth">
                                     </div>
                                 </div>
                             </div> 
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="age"
+                                               placeholder="Age" required="required">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="occupation"
+                                               placeholder="Occupation" required="required">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12">
+                                    <div class="form-group">
+                                        <input type="text" name="phone" value="" class="form-control"
+                                               id="phone" placeholder="Phone No.">
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12">
+                                    <div class="form-group">
+                                        <input type="text" name="alt phone" value="" class="form-control"
+                                               id="alt phone" placeholder=" Alternative Phone No.">
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="NIN"
+                                               placeholder="National ID No." required="required">
+                                    </div>
+                                </div>
+                            </div>
                             <div class="row">
                                 <div class="col-sm-12 col-xs-12">
                                     <div class="form-group">
                                         <input type="email" class="form-control" name="email"
-                                               placeholder="Enter email" required="required">
+                                               placeholder="Email" required="required">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-12 col-xs-12">
                                     <div class="form-group">
-                                        <input type="text" name="loan amount" value="" class="form-control"
-                                               id="loan amount" placeholder="Loan Amount (UGX)">
+                                        <label for="idFile">Attach National ID</label>
+                                        <input type="file" id="idFile" name="filename">
                                     </div>
                                 </div>
-                            </div>    
+                            </div>
                             <div class="row">
                                 <div class="col-sm-12 col-xs-12">
                                     <div class="form-group">
-                                        <select type="text" name="loan interest" value="" class="form-control"
-                                               id="loan interest" placeholder="Loan Interest">
-                                               <option value="" disabled selected>Select loan interest</option>
-                                               <option>20% - 1 month</option>
-                                               <option>10% - 2 weeks</option>
-                                               <option>5% - 1 week</option>
-                                        </select>       
+                                        <label for="picFile">Attach Passport Photo</label>
+                                        <input type="file" id="picFile" name="filename">
                                     </div>
                                 </div>
-                            </div>    
+                            </div>
                             
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="form-group">
-                                                <textarea name="purpose" id="pupose" class="form-control" rows="7"
-                                                          cols="25" placeholder="Loan Purpose"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-12 col-xs-12">
-                                    <div class="form-group">
-                                        <select type="text" name="loan period" value="" class="form-control"
-                                               id="loan period" placeholder="Loan Period">
-                                               <option value="" disabled selected>Select Loan period</option>
-                                               <option>1 month</option>
-                                               <option>2 weeks</option>
-                                               <option>1 week</option>
-                                        </select>       
-                                    </div>
-                                </div>
-                            </div> 
                             <div class="row">
                                 <div class="col-sm-12 mt-20">
                                     <button type="submit" class="btn softo-solid-btn pull-right"
                                             id="btnContactUs">
-                                        Apply
+                                        Register
                                     </button>
                                 </div>
                             </div>
